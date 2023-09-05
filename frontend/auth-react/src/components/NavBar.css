@@ -1,0 +1,41 @@
+.navBar {
+    background-color: black;
+    color: white;
+    margin:0;
+    padding: 8px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navBar__left{
+    display: flex;
+    flex-direction:row;
+}
+
+.navBar__right{
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.navBar ul {
+    cursor: pointer;
+}
+
+.navBar__login_button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+
+.navBar__signup_button {
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 30%;
+    cursor: pointer;
+}
