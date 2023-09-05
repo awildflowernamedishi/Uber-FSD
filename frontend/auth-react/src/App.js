@@ -1,11 +1,14 @@
 import './App.css';
+import Login from './components/Login';
+import NavBar from './components/NavBar';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>this is from App.js </h1>
-      </header>
+  const app_var = "App variable"
+  return ( 
+    
+    <div className="app">
+        <NavBar/>
+        <Login />
     </div>
   );
 }
